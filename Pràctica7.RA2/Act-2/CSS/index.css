@@ -3,7 +3,6 @@
     width: 50%;
     display: inline-flex;
     margin-left: 20px;
-    align-self: start;
 } 
 #div1 {
     border: 3px solid purple;
@@ -46,10 +45,10 @@ h1, p{
     margin: 5px;
 }
 #visible {
-    border: 2px solid black;
+    display: inline-flex;
     border-radius: 100%;
     width: auto;
-    height: 30px;
+    height: 40px;
     background-color: greenyellow;
-    position: relative;
+    position: fixed;
 }
